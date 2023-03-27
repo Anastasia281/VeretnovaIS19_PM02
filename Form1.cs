@@ -52,11 +52,14 @@ namespace VeretnovaIS19_ПМ02
             {
                 RadioButton(false);
                 price = 1900;
+                pictureBox1.Image = Image.FromFile(Application.StartupPath + @"\Picture\7.jpg");
+
             }
             else if (comboBox1.SelectedItem.Equals("Балконы") == true)
             {
                 RadioButton(false);
                 price = 3400;
+                pictureBox1.Image = Image.FromFile(Application.StartupPath + @"\Picture\6.jpg");
             }
         }
 
@@ -123,6 +126,31 @@ namespace VeretnovaIS19_ПМ02
                 doc = null;
                 MessageBox.Show("Во время выполнения произошла ошибка!");
             }
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Image.FromFile(Application.StartupPath + @"\Picture\1.jpg");
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Image.FromFile(Application.StartupPath + @"\Picture\2.jpg");
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Image.FromFile(Application.StartupPath + @"\Picture\3.jpg");
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Image.FromFile(Application.StartupPath + @"\Picture\4.jpg");
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Image.FromFile(Application.StartupPath + @"\Picture\5.jpg");
         }
     }
 }

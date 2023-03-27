@@ -82,6 +82,7 @@ namespace VeretnovaIS19_ПМ02
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Глухое";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -94,6 +95,7 @@ namespace VeretnovaIS19_ПМ02
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Поворотное";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -106,6 +108,7 @@ namespace VeretnovaIS19_ПМ02
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Откидное";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -118,6 +121,7 @@ namespace VeretnovaIS19_ПМ02
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Фрамужное";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton5
             // 
@@ -130,6 +134,7 @@ namespace VeretnovaIS19_ПМ02
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Раздвижное";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // label2
             // 
@@ -199,6 +204,7 @@ namespace VeretnovaIS19_ПМ02
             this.pictureBox1.Location = new System.Drawing.Point(350, 75);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(244, 211);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
