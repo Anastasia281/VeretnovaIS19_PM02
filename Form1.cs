@@ -78,6 +78,10 @@ namespace VeretnovaIS19_ПМ02
             {
                 MessageBox.Show("Возможен ввод только цифр!");
             }
+            if (textBox2.Text == "0" || textBox2.Text.Length == 0)
+            {
+                MessageBox.Show("Поле не может быть пустое или равное 0!");
+            }
         }
 
         private void textBox1_Validating(object sender, CancelEventArgs e)
@@ -85,6 +89,10 @@ namespace VeretnovaIS19_ПМ02
             if (proverka.IsMatch(textBox1.Text) == false)
             {
                 MessageBox.Show("Возможен ввод только цифр!");
+            }
+            if (textBox1.Text == "0" || textBox1.Text.Length == 0)
+            {
+                MessageBox.Show("Поле не может быть пустое или равное 0!");
             }
         }
 
